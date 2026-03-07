@@ -7,68 +7,133 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
+
 <body>
    
-    <div class="box">
-        <h4 class="t"> <img src="./icons/halloween-witch-cap.png" alt="img" height="30px" width="30px">Hootsuite</h4>
-        <p class="p">Learn How Hootsuite Delivers Better <br> Results from Social</p>
+   <div class="header">
+
+    <div class="logo">
+      <img src="./icons/halloween-witch-cap.png" alt="">
+      <span>Hootsuite</span>
+    </div>
+
+     <div class="hero">
+      <h1>
+      <span>Learn How Hootsuite Delivers Better</span>
+      <span>Results from Social</span>
+      </h1>
+     </div>
+
     </div>
   
   
-    <div class="second_container">
-    <div class="second_container_first_part">
-    <p class="second_text">See how Hootsuite makes getting real results from social media easier- <br> through better collaboration,deeper insight, and stronger security.
-    <br>
-    <br>
-    Your demo includes how to: <br><br>
+<div class="main">
 
-    <ul style="list-style-type:none" class="list">
-        <li class="li"><img src="./icons/check.png" alt="check" height="20px" width="20px">Manage Social media teams of any size, across departments and the world</li><br>
-        <li class="li"><img src="./icons/check.png" alt="check" height="20px" width="20px">Integrate with tools and platforms you rely on now</li><br>
-        <li class="li"><img src="./icons/check.png" alt="check" height="20px" width="20px">Optimize campaigns using real-time analytics</li><br>
-        <li class="li"><img src="./icons/check.png" alt="check" height="20px" width="20px">Prove social media ROI</li><br>
-        <li class="li"><img src="./icons/check.png" alt="check" height="20px" width="20px">Ensure regulatory compliance and mitigate reputation risks</li><br>
-        <li class="li"><img src="./icons/check.png" alt="check" height="20px" width="20px" flex-direction="row">Protect against social media threats and crises</li><br>
 
-        </ul><br>
-        <p class="second_finisher">Book your Hootsuite demo now and we will contact you shortly to book a convenient time.</p>
-        </p>
+    <div class="left">
+
+       <p class="intro">
+          See how Hootsuite makes getting real results from social media easier—
+          through better collaboration, deeper insight, and stronger security.
+       </p>
+
+        <p class="demo_title">Your demo includes how to:</p>
+
+     <ul class="features">
+
+        <li>
+         <img src="./icons/check.png">
+         <span>Manage social media teams of any size, across departments and the world</span>
+        </li>
+
+        <li>
+         <img src="./icons/check.png">
+         <span>Integrate with tools and platforms you rely on now</span>
+        </li>
+
+        <li>
+         <img src="./icons/check.png">
+         <span>Optimize campaigns using real-time analytics</span>
+        </li>
+
+        <li>
+         <img src="./icons/check.png">
+         <span>Prove social media ROI</span>
+        </li>
+
+        <li>
+          <img src="./icons/check.png">
+          <span>Ensure regulatory compliance and mitigate reputation risk</span>
+        </li>
+
+        <li>
+          <img src="./icons/check.png">
+          <span>Protect against social media threats and crises</span>
+        </li>
+
+    </ul>
+
+      <p class="bottom_text">
+         Book your Hootsuite demo now and we will contact you shortly to book a convenient time.
+      </p>
 
     </div>
 
 
-    <div class="second_container_second_part">
+    
         <form action="" class="forms">
-            <div class="form_text"><P>Request a Demo</P></div>
+            <div class="form_text"><P>Request a Demo</P>
             <div class="form_input">
-                <label for="first_name">First Name</label><br><br>
-                <input type="text" id="first_name" name="first_name" placeholder="First Name"><br><br>
-                <label for="last_name">Last Name</label><br><br>
-                <input type="text" id="last_name" name="last_name" placeholder="Last Name"><br><br>
-                <label for="email">Business Email Address</label><br><br>
-                <input type="email" id="email" name="email" placeholder="Email"><br><br>
-                <label for="title">Title</label><br><br>
-                <select id="title" name="title" placeholder="please select" >
-                    <option value="" disabled selected>-Please Select-</option> 
-                </select><br><br>
-                <label for="Role">Role</label><br><br>
-                <select id="Role" name="Role"">
-                    <option value="" disabled selected>-Please Select-</option>
-                    <option value="marketing">Marketing</option>
-                    <option value="sales">Sales</option>
-                    <option value="customer_service">Customer Service</option>
-                    <option value="other">Other</option>
-                    </select><br><br>
-                <label for="company">Company</label> <br><br>  
-                <input type="text" id="company" name="company" placeholder="To select,begin typing"><br><br>
+                <div class="form_group">
+                    <label>First Name</label>
+                    <input type="text">
+                </div>
 
-                <label for="number">Phone Number</label><br><br>
-                <input type="tel" id="number" name="number" placeholder="Phone Number"><br><br>
-                <input type="submit" value="Book Your Demo Now" class="submit_button"> <br>
-                <p>Get in-depth social media strategy and advice</p>
+                <div class="form_group">
+                    <label>Last Name</label>
+                    <input type="text">
+                </div>
+
+              
+
+                <div class="form_group">
+                    <label>Title</label>
+                    <select>
+                    <option>- Please Select -</option>
+                    </select>
+                </div>
+
+                <div class="form_group">
+                    <label>Role</label>
+                    <select>
+                    <option>- Please Select -</option>
+                    <option>Marketing</option>
+                    <option>Sales</option>
+                    <option>Customer Service</option>
+                    <option>Other</option>
+                    </select>
+                </div>
+
+                <div class="form_group">
+                    <label>Company</label>
+                    <input type="text" placeholder="To select, begin typing">
+                </div>
+
+                <div class="form_group">
+                    <label>Phone Number</label>
+                    <input type="tel">
+                </div>
+
+                <button class="demo_btn">Book Your Demo Now</button>
+
+                <p class="form_note">
+                 Get in-depth social media strategy and advice.
+                </p>
+
+            </div>
             </div>
         </form>
-    </div>
+    
 </div>
 <div class="last_container">
     <div>
@@ -87,12 +152,12 @@
 
 
 <div class="ending">
-    <ul class="links" style="list-style-type: none;">
-        <li><a href="#" style="color: gray;">Terms & condition  </a></li>
-        <li><a href="#"style="color: gray;">Privacy Policy </a></li>
-        <li><a href="#" style="color: gray;">Copyright </a></li>
-        <li><a href="#" style="color: gray;">Sitemap </a></li>
-    </ul>
+   <ul class="links">
+    <li><a href="#">Terms & condition</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Copyright</a></li>
+    <li><a href="#">Sitemap</a></li>
+</ul>
 
     <select name="English" class="english">
         <option value="eng">English</option>
@@ -101,13 +166,7 @@
 
     <p class="copyright">&copy; 2017 Hootsuite Media Inc. All rights Reserved.</p>
 
-</div>
-
-
-
-    
-
-       
+</div>      
 
 </body>
 </html>
